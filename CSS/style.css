@@ -1,0 +1,51 @@
+.logo {
+    height: 50px;
+}
+
+#language{
+    background-color:#fbfafa;
+    height: 40px;
+    width: 55px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding:6px;
+    margin-left:10px;
+    margin-top: 10px;
+    border: none;
+}
+
+.first_header {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.logolanguage{
+    display: flex;
+}
+
+.fsearch{
+    background-color: #fbfafa;
+    border: none;
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.fheaderelement{
+    background-color: transparent;
+    border:none;
+    width: 230px;
+    height: 36px;
+    font-size: 14px;
+    text-align: center;
+}
+
+@media only screen and (max-width:412px) {
+    *{
+        display: none;
+    }
+}
